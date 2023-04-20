@@ -1,8 +1,7 @@
-=== WooCommerce Offline Gateway ===
+=== WooCommerce Ravenpay Gateway ===
 
- - Contributors: skyverge, beka.rice
+ - Contributors: mona-chen(Ezeani Emmanuel), Raven bank
  - Tags: woocommerce, payment gateway, gateway, manual payment
- - [Donate link](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=paypal@skyverge.com&item_name=Donation+for+WooCommerce+Offline+Gateway)
  - Requires at least: 3.8
  - Tested up to: 4.3
  - Requires WooCommerce at least: 2.1
@@ -17,34 +16,34 @@ Automatically generate WooCommerce product SKUs from the product slug and/or var
 
 > **Requires: WooCommerce 2.1+**
 
-This plugin clones the Cheque gateway to create another offline payment method. This can be used to create a testing payment method if you use the Cheque gateway for something else. For example, this could be used for manual invoices or other offline payment methods.
+This plugin allows you to sell your product efficiently and recieve payment around the world with multiple payment options including, Credit Card, Bank Transfers and USSD Payments.
 
-When an order is submitted via the Offline payment method, the order will be placed "on-hold".
+When an order is completed via the Ravenpay payment method, the order will be placed "processing".
 
 = More Details =
- - See the [product page](http://www.skyverge.com/product/woocommerce-offline-gateway/) for full details and documentation
- - View more of SkyVerge's [free WooCommerce extensions](http://profiles.wordpress.org/skyverge/)
- - View all [SkyVerge WooCommerce extensions](http://www.skyverge.com/shop/)
+ - See the [product page](http://www.getravenbank/plugins/woocommerce-payment-gateway/) for full details and documentation
+ - View more of Ravenbank's [other platform Payment Integrations](http://https://getravenbank.com/)
+ - Create a Raven Atlas Account [Raven Atlas Account](http://www.atlas.getravenbank.com/)
 
 == Installation ==
 
 1. Be sure you're running WooCommerce 2.1+ in your shop.
-2. You can: (1) upload the entire `woocommerce-gateway-offline` folder to the `/wp-content/plugins/` directory, (2) upload the .zip file with the plugin under **Plugins &gt; Add New &gt; Upload**
+2. You can: (1) upload the entire `ravenpay-woocommerce-payment-addon` folder to the `/wp-content/plugins/` directory, (2) upload the .zip file with the plugin under **Plugins &gt; Add New &gt; Upload**
 3. Activate the plugin through the **Plugins** menu in WordPress
-4. Go to **WooCommerce &gt; Settings &gt; Checkout** and select "Offline" to configure
+4. Go to **WooCommerce &gt; Settings &gt; Checkout** and select "Ravenpay" to configure
 
 == Frequently Asked Questions ==
 
 **What is the text domain for translations?**
-The text domain is `wc-gateway-offline`.
+The text domain is `wc-ravenpay`.
 
 **Can I fork this?**
-Please do! This is meant to be a simple starter offline gateway, and can be modified easily.
+Please do! You can extend or customize this plugin to suite your custom needs.
 
 == Changelog ==
 
-= 2015.07.27 - version 1.0.1 =
+= 2023.04.20 - version 1.0.1 =
  * Misc: WooCommerce 2.4 Compatibility
 
-= 2015.05.04 - version 1.0.0 =
+= 2023.04.20 - version 1.0.0 =
  * Initial Release
